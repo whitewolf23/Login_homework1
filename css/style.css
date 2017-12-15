@@ -1,0 +1,167 @@
+body, html{
+  margin :0px;
+  vertical-align: middle;  
+  height: 100%
+}
+.container{
+  background-image: url("../img/background.jpg");
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/**
+header
+ */
+.container .header{
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.container .header .logo{
+  width: 200px;
+  height: 60px;
+  margin: 50px;
+  margin-top: 90px;
+}
+
+/**
+facebookLogin
+ */
+.container .facebookLogin {
+  text-align: center;
+}
+
+.container .facebookLogin .fb_login{
+  background-color: #3b5998;
+  border: none;
+  color: white;
+  padding: 5px 80px;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/**
+horizonal_line
+ */
+.container .horizonal_line h1 {
+    overflow: hidden;
+    text-align: center;
+    color: #6E6E6E;
+    font-size: 15px;
+}
+.container .horizonal_line h1:before,
+.container .horizonal_line h1:after {
+    background-color: #6E6E6E;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 9em; /* %로 설정하면, 매 가변적으로 길이가 변함 */
+}
+.container .horizonal_line h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.container .horizonal_line h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/**
+loginForm
+ */
+.container .loginForm .email {
+  background:#424242;
+ 
+  width: 300px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 11px;
+  border-radius: 2px;
+  padding-left: 10px;
+  border: 0px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.container .loginForm .password {
+  background:#424242;
+  width: 300px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 11px;
+  padding-left: 10px;
+  border: 0px;
+  border-radius: 2px;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .loginForm .auto_login {
+  text-align: center;
+  color: #A4A4A4;
+  vertical-align: middle;
+}
+
+.container .loginForm .auto_login p{
+  font-size: 18px;
+  margin-right: 150px;
+  display: inline
+}
+
+/**
+alertInLoginform
+ */
+.container .alertInLoginform{
+  text-align: center;
+}
+.container .alertInLoginform .box{
+  background: #B40431;
+  width: 19.5em;
+  height: 3.5em;
+  margin: auto;
+  display: block;
+}
+.container .alertInLoginform p{
+  color: #ffffff;
+  vertical-align: middle;
+  padding-top: 7px;
+}
+
+.container .alertInLoginform .login{
+  background-color: #4CAF50;
+  border: none;
+  color: #ffffff;
+  padding: 10px 32px;
+  margin-top: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  
+}
+
+/**
+footer
+ */
+.container .footer{
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+
